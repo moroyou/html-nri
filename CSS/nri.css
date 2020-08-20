@@ -1,2 +1,11 @@
 p {font-size: 14px;}
 
+#pagehead .globalNavi {
+    font-size: 14px;
+    color: #000000;
+
+}
+
+#pagehead .globalNavi li {
+    float: left;
+}
