@@ -1,6 +1,7 @@
 /*ページ*/
 #page
 
+/*グローバルナビ*/
 p {font-size: 16px;
     color: #333333;
 }
@@ -10,16 +11,22 @@ p {font-size: 16px;
     color: #000000;
 }
 
-#pagehead .globalNavi ul li {
+#pagehead .globalNavi ul {
     margin: 0;
     padding: 0;
+}
+
+
+#pagehead .globalNavi ul li {
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 100%;
     list-style: none;
     float: left;
     box-sizing: border-box;
     font-size: 14px;
     font-feature-settings: "palt";
     font-weight: 700;
-    height: 600;
 }
 
 #smallglobalNavi ul li {
@@ -33,6 +40,8 @@ p {font-size: 16px;
     height: 250px;
     object-fit: cover;
 }
+
+/* ハンバーガーメニュー*/
 
 #humberger {
     position: relative;
@@ -59,4 +68,11 @@ p {font-size: 16px;
   }
   #humberger div:nth-of-type(3) {
     bottom: 0;
+  }
+
+
+  #smallglobalNavi {
+      color: #999;
+      margin: 0 0 5px 0;
+      font-size: 12px;
   }
