@@ -1,49 +1,8 @@
-body {height:100%;}
-#main {height:100%;}
+
 
 
 /*グローバルナビ*/
-p {font-size: 16px;
-    color: #333333;
-}
 
-#pagehead .globalNavi {
-    font-size: 14px;
-    color: #000000;
-}
-
-#pagehead .globalNavi {
-    display: flex;
-    align-items: center;
-}
-
-#pagehead .globalNavi ul li:first-child {
-    margin-right: auto;
-}
-
-#pagehead .globalNavi ul li {
-    margin: 0 auto;
-    padding: 0 10px;
-    height: 100%;
-    list-style: none;
-    float: left;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-feature-settings: "palt";
-    font-weight: 700;
-}
-
-.smallglobalNavi{
-    font-size: 12px;
-    float: left;
-    color: #999;
-}
-
-#page .topimg {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
 
 /* ハンバーガーメニュー*/
 
@@ -84,30 +43,8 @@ p {font-size: 16px;
       font-size: 12px;
 }
 
-.download {
-      background: #005bac;
-      padding: 15px 20px;
-      text-align: center;
-}
-
 /* TOPページ*/
-#page .mainvisualtext {
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.4);
-}
 
 
-
-  /* 表　*/
-
-#pagebodyMain table {
-    font-size: 18px;
-    border: solid 1px black;
-}
-
-#pagebodyMain table td {
-    border: 1px solid #CCCCCC;
-    padding: 15px 20px;
-}
 
 
