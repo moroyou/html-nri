@@ -14,6 +14,7 @@ p {font-size: 16px;
 #pagehead .globalNavi ul {
     margin: 0;
     padding: 0;
+    margin-right: auto;
 }
 
 
@@ -49,8 +50,9 @@ p {font-size: 16px;
     width: 20px;
     display: inline-block;
     box-sizing: border-box;
-  }
-  #humberger div {
+ }
+
+ #humberger div {
     position: absolute;
     left: 0;
     height: 2px;
@@ -59,20 +61,30 @@ p {font-size: 16px;
     border-radius: 2px;
     display: inline-block;
     box-sizing: border-box;
-  }
-  #humberger div:nth-of-type(1) {
+}
+
+#humberger div:nth-of-type(1) {
     top: 0;
-  }
-  #humberger div:nth-of-type(2) {
+}
+
+#humberger div:nth-of-type(2) {
     top: 9px;
-  }
-  #humberger div:nth-of-type(3) {
+}
+ 
+#humberger div:nth-of-type(3) {
     bottom: 0;
-  }
-
-
-  #smallglobalNavi {
+ }
+ 
+#smallglobalNavi {
       color: #999;
       margin: 0 0 5px 0;
       font-size: 12px;
-  }
+}
+
+.download {
+      background: #005bac;
+      padding: 15px 20px;
+      text-align: center;
+}
+  /* 表　*/
+
