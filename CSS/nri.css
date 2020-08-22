@@ -1,5 +1,6 @@
-/*ページ*/
-#page
+body {height:100%;}
+#main {height:100%;}
+
 
 /*グローバルナビ*/
 p {font-size: 16px;
@@ -11,12 +12,14 @@ p {font-size: 16px;
     color: #000000;
 }
 
-#pagehead .globalNavi ul {
-    margin: 0;
-    padding: 0;
-    margin-right: auto;
+#pagehead .globalNavi {
+    display: flex;
+    align-items: center;
 }
 
+#pagehead .globalNavi ul li:first-child {
+    margin-right: auto;
+}
 
 #pagehead .globalNavi ul li {
     margin: 0 auto;
@@ -30,10 +33,10 @@ p {font-size: 16px;
     font-weight: 700;
 }
 
-#smallglobalNavi ul li {
+.smallglobalNavi{
+    font-size: 12px;
     float: left;
-    list-style: none;
-    box-sizing: border-box;
+    color: #999;
 }
 
 #page .topimg {
@@ -86,5 +89,25 @@ p {font-size: 16px;
       padding: 15px 20px;
       text-align: center;
 }
+
+/* TOPページ*/
+#page .mainvisualtext {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
   /* 表　*/
+
+#pagebodyMain table {
+    font-size: 18px;
+    border: solid 1px black;
+}
+
+#pagebodyMain table td {
+    border: 1px solid #CCCCCC;
+    padding: 15px 20px;
+}
+
 
