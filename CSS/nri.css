@@ -1,19 +1,39 @@
-body {
-    width: 1250px;
-}
+html {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
 
 
 /*グローバルナビ*/
-#pagehead .globalNavi ul li {
-    display: flex;
-    list-style: none;
-    padding: 0 10px;
-    background-color: royalblue;
+.globalNavi .logo img {
+    width: 60px;
+    height: auto;
 }
 
-#pagehead .globalNavi li:first-child {
+#pagehead .globalNavi {
+    background-color: royalblue;
+
+}
+
+#pagehead .globalNavi ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+}
+
+.globalNavi li:first-child {
     margin-right: auto;
 }
+
+.globalNavi li {
+    display: block;
+    padding: 0 10px;
+}
+
 
 #smallglobalNavi .toicpatch {
     float: left;
@@ -72,8 +92,33 @@ body {
 }
 
 
+/* ダウンロードボタン*/
+.btn {
+    display: inline-block!important;
+    color: #fff;
+    background-color: #005bac;
+    border: solid 1px #005bac;
+    margin: 20px 0px;
+    padding: 15px 20px;
+    position: relative;
+    text-align: center;
+}
 
+.btn:before{
+    content: '>';
+}
 
+.sub-content2{
+    margin: right;
+}
+
+.text-alignleft {
+    text-align: left;
+}
+.text-alignright {
+    text-align: right;
+}
 /*企業情報*/
+
 
 
