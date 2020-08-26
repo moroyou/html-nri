@@ -137,9 +137,16 @@ html {
 
 
 /*経営方針*/
-#localNavi {
-    display: flex;
-    flex-wrap: wrap;
+#localNavi ul {
+    display:flex;
+}
+
+#localNavi ul li {
+    display: inline;
     box-sizing: border-box;
-    margin: 0 -10px;
+}
+
+#localNavi .lo-navcontent {
+    display: block;
+
 }
