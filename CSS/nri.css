@@ -16,24 +16,38 @@ html {
 }
 
 #pagehead .globalNavi ul {
-    display: -webkit-flex;
-    display: flex;
     list-style: none;
     font-family: sans-serif;
     font-weight: 700;
     font-size: 14px;
     align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    padding-right: 200px;
+    text-size-adjust: 100%;
+    display: inline-flex;
 }
 
 .globalNavi li:first-child {
     margin-right: auto;
 }
 
+
 .globalNavi li {
     display: block;
     padding: 0 10px;
 }
 
+#pagehead .subglnavi ul {
+    display: flex;
+    text-align: right;
+    box-sizing: border-box;
+    right: 0;
+    margin: 0;
+    font-size: 14px;
+    background-color: rgb(255, 145, 0);
+    
+}
 
 #smallglobalNavi .toicpatch {
     float: left;
@@ -122,3 +136,10 @@ html {
 
 
 
+/*経営方針*/
+#localNavi {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 -10px;
+}
