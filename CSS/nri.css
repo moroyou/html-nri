@@ -5,7 +5,7 @@ html {
 
   /*pagebodyMainの中央寄せ*/
 #pagebodyMain {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -152,8 +152,8 @@ html {
 #glaph {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 10px;
+    width: 110%;
+    margin: 20px;
     padding: 30px;
 }
 
@@ -164,7 +164,7 @@ html {
     background-color: white;
     text-align: center;
     margin: 10px;
-    padding: 10px; 
+    padding: 5px; 
 }
 
 .tablelist p::before {
@@ -188,6 +188,7 @@ html {
 #localNavi ul {
     display:flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 #localNavi li::before {
     content: ">";
@@ -197,9 +198,13 @@ html {
     display: inline;
     list-style: none;
     width: 25%;
+    padding-bottom: 20px;
+}
+#localNavi ul li a {
+    color: #0c419a;
+    text-decoration: none
 }
 
 #localNavi .lo-navcontent {
     display: block;
-
 }
