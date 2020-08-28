@@ -3,6 +3,11 @@ html {
     margin: 0 auto;
   }
 
+  /*pagebodyMainの中央寄せ*/
+#pagebodyMain {
+    max-width: 1000px;
+    margin: auto;
+}
 
 /*グローバルナビ*/
 .globalNavi .logo img {
@@ -134,9 +139,10 @@ html {
 }
 /*表の装飾（追加版）*/
 .totalgraph {
+    display: inline-block;
     background-color:#deecf8;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
 }
 .totalgraph p {
@@ -146,7 +152,7 @@ html {
 #glaph {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
     margin: 10px;
     padding: 30px;
 }
@@ -155,6 +161,7 @@ html {
     width: 23%;
     border: solid 1px;
     border-color: #cccccc;
+    background-color: white;
     text-align: center;
     margin: 10px;
     padding: 10px; 
@@ -167,6 +174,10 @@ html {
 .tablelist p {
     font-size: 16px;
 }
+.tablelist a {
+    color: #0c419a;
+    text-decoration: none
+}
 
 
 /*企業情報*/
@@ -176,11 +187,16 @@ html {
 /*経営方針*/
 #localNavi ul {
     display:flex;
-    width: 25%;
+    flex-wrap: wrap;
+}
+#localNavi li::before {
+    content: ">";
 }
 
 #localNavi ul li {
     display: inline;
+    list-style: none;
+    width: 25%;
 }
 
 #localNavi .lo-navcontent {
