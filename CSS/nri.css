@@ -198,13 +198,20 @@ html {
     display: inline;
     list-style: none;
     width: 25%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 #localNavi ul li a {
     color: #0c419a;
     text-decoration: none
 }
 
-#localNavi .lo-navcontent {
-    display: block;
+
+.localnavi-list {
+    border-bottom: solid 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #999;
+}
+
+h3 {
+    margin: 35px 0;
 }
