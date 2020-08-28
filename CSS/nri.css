@@ -132,6 +132,43 @@ html {
 .text-alignright {
     text-align: right;
 }
+/*表の装飾（追加版）*/
+.totalgraph {
+    background-color:#deecf8;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+.totalgraph p {
+    font-size: large;
+}
+
+#glaph {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 10px;
+    padding: 30px;
+}
+
+.tablelist {
+    width: 23%;
+    border: solid 1px;
+    border-color: #cccccc;
+    text-align: center;
+    margin: 10px;
+    padding: 10px; 
+}
+
+.tablelist p::before {
+    content: ">";
+}
+
+.tablelist p {
+    font-size: 16px;
+}
+
+
 /*企業情報*/
 
 
@@ -139,11 +176,11 @@ html {
 /*経営方針*/
 #localNavi ul {
     display:flex;
+    width: 25%;
 }
 
 #localNavi ul li {
     display: inline;
-    box-sizing: border-box;
 }
 
 #localNavi .lo-navcontent {
