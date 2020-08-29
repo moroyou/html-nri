@@ -3,9 +3,9 @@ html {
     margin: 0 auto;
   }
 
-  /*pagebodyMainの中央寄せ*/
+  /*pagebodyMainの中央寄せと幅のサイズ*/
 #pagebodyMain {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -168,7 +168,9 @@ html {
 }
 
 .tablelist p::before {
-    content: ">";
+    content: ">  ";
+    color: #999;
+    white-space: pre-wrap;
 }
 
 .tablelist p {
@@ -180,9 +182,12 @@ html {
 }
 
 
-/*企業情報*/
+/*企業情報 見出し部分の装飾*/
 
-
+.heading-typeB {
+    font-size: 20px;
+    color:rgba(48, 46, 46, 0.904)
+}
 
 /*経営方針*/
 #localNavi ul {
@@ -191,7 +196,9 @@ html {
     box-sizing: border-box;
 }
 #localNavi li::before {
-    content: ">";
+    content: ">   ";
+    white-space: pre-wrap;
+    color: #999;
 }
 
 #localNavi ul li {
@@ -212,6 +219,89 @@ html {
     border-bottom-color: #999;
 }
 
+/*企業情報の装飾*/
+.heading-typeB {
+    border-top: solid 2px;
+    border-top-color: #000;
+    border-bottom: solid 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #999;
+    padding: 30px 0;
+}
+
 h3 {
+    font-size: 16px;
     margin: 35px 0;
+    color: rgba(48, 46, 46, 0.904);
+}
+
+/*前のページの戻る*/
+.backpage {
+    margin: 60px 0;
+    font-size: 16px;
+}
+
+.backpage ::before {
+    content: "<  ";
+    white-space: pre-wrap;
+    color: #999;
+}
+
+.backpage a {
+    color: #0c419a;
+    text-decoration: none;
+}
+
+/*リスト最後*/
+
+#subinfo {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-bottom: solid 1px;
+    border-bottom-color: #999;
+}
+
+.subinfo-list ul li ::before {
+    content: ">  ";
+    white-space: pre-wrap;
+    color: #999;
+}
+
+
+.subinfo-list {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+
+.subinfo-list ul li {
+    list-style: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 16px;
+}
+
+.subinfo-list ul li a {
+    margin-left: 0%;
+    text-decoration: none;
+}
+
+.subinfo-title ::before {
+    content: ">";
+    white-space: pre-wrap;
+    color: #999;
+}
+
+/* footerリンク　*/
+#mainfooter ul li{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#copyright {
+    text-align: center;
 }
