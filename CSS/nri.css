@@ -23,10 +23,12 @@ header {
 
 /*グローバルナビ*/
 #pagehead .globalNavi {
+    max-width: 100%;
+    margin-left: 0px;
    display: flex;
-   background-color: royalblue;
    margin-bottom: 200px;
-}
+   background-color: #fff;
+}/*(元々青色で囲っていたところ)*/
 
 .globalNavi .logo img {
     width: 70px;
@@ -41,25 +43,24 @@ header {
 
 #pagehead .globalNavi ul li {
     float: left;
-    background-color: blueviolet;
-}
+}/*(元々紫で囲っていたところ)*/
 
 #pagehead .globalNavi ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .globalNavi li {
     display: block;
-    padding: 0 10px;
+    padding: 0 8px;
+    margin-left: 10px;
 }
 
 .mainglonavi {
-    background-color: brown;
     margin-left: 200px;
-}
+}/*元々赤色だったところ*/
 
 #pagehead .globalNavi .subglnavi li {
     margin: 0 10px;
@@ -68,7 +69,6 @@ header {
 
 #smallglobalNavi .toicpatch {
     float: left;
-    background-color: salmon;
     margin-bottom: 20px;
 }
 
@@ -296,7 +296,6 @@ header {
 }
 
 
-
 /*企業情報 見出し部分の装飾*/
 
 .heading-typeB {
@@ -375,20 +374,25 @@ h3 {
 
 /*一番大きいSNSアイコン欄*/
 .snsfollow {
+    height: 100px;
     text-align: center;
-    border: solid;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: #999;
 }
 
 .snsfollow ul {
-    display: flex;
     margin: 20px;
+    display: inline-flex;
 }
 
 .snsfollow ul li {
+    font-size: 22px;
+    font-weight: bolder;
     list-style: none;
-    margin: 20px;
-    
+    margin: 22px;
 }
+   
 
 
 /*リスト最後*/
@@ -454,9 +458,8 @@ h3.subinfo-title {
     font-size: 12px;
     float: left;
     list-style: none;
-    margin: 10px;
-    padding: 0 10px;
-    padding-right: 20px;
+    margin: 40px;
+    padding-right: 10px;
     display: block;
     border-right: solid 1px #999;
 }
@@ -470,4 +473,9 @@ h3.subinfo-title {
 .followus ul li {
     display: flex;
     list-style: none;
+}
+
+#copyright {
+    display: inline-flex;
+    text-align: center;
 }
