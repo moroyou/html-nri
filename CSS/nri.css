@@ -1,6 +1,7 @@
 html {
     max-width: 1800px;
     margin: 0 auto;
+    padding: 0;
   }
 
   /*pagebodyMainの中央寄せと幅のサイズ*/
@@ -9,62 +10,74 @@ html {
     margin: auto;
 }
 
-/*グローバルナビ*/
-.globalNavi .logo img {
-    width: 60px;
-    height: auto;
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
 }
 
-#pagehead .globalNavi {
-    background-color: royalblue;
+#container {
+    padding-top: 150px;
+  }
 
+/*グローバルナビ*/
+#pagehead .globalNavi {
+   display: flex;
+   background-color: royalblue;
+   margin-bottom: 200px;
+}
+
+.globalNavi .logo img {
+    width: 70px;
+    height: auto;
+    padding-top: 10px;
+    margin-left: 30px;
 }
 
 #pagehead .globalNavi ul {
-    list-style: none;
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    align-items: center;
-    box-sizing: border-box;
-    justify-content: flex-end;
-    padding-right: 200px;
-    text-size-adjust: 100%;
-    display: inline-flex;
+    text-align: right;
 }
 
-.globalNavi li:first-child {
-    margin-right: auto;
+#pagehead .globalNavi ul li {
+    float: left;
+    background-color: blueviolet;
 }
 
+#pagehead .globalNavi ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
 
 .globalNavi li {
     display: block;
     padding: 0 10px;
 }
 
-#pagehead .subglnavi ul {
-    display: flex;
-    text-align: right;
-    box-sizing: border-box;
-    right: 0;
-    margin: 0;
-    font-size: 14px;
-    background-color: rgb(255, 145, 0);
-    
+.mainglonavi {
+    background-color: brown;
+    margin-left: 200px;
+}
+
+#pagehead .globalNavi .subglnavi li {
+    margin: 0 10px;
+    padding-right: 18px;
 }
 
 #smallglobalNavi .toicpatch {
     float: left;
     background-color: salmon;
+    margin-bottom: 20px;
 }
 
 /* ハンバーガーメニュー*/
 
 #humberger {
     position: relative;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     display: inline-block;
     box-sizing: border-box;
  }
@@ -94,20 +107,101 @@ html {
  
 #smallglobalNavi {
       color: #999;
-      margin: 0 0 5px 0;
+      margin-top:60px;
+      margin-left: 80px;
       font-size: 12px;
 }
 
+/* TOP画像ページの文字装飾のデザイン*/
 
 .mainvisualtext {
-    background-color: seagreen;
+    width: 500px;
+    height: 90px;
+    position: absolute;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 200px;
+    line-height: 20px;
+}
+
+.mainvistext1 {
+    font-size: 18px;
+}
+
+.mainvistext2 {
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 /* TOPページ*/
+#maincover {
+    position: relative;
+}
+
 #page .topimg {
-    width: 100%;
+    width: 100vw;;
     height: 250px;
-    object-fit: cover;
+    object-fit: none;
+    margin-left: -50px;
+    position: ;
+}
+
+/*写真カバーのところ*/
+.mainvisualtext {
+    color: ivory;
+}
+
+
+/* SNSロゴ　*/
+#snslogo {
+    max-width: 1100px;
+    height: 74px;
+}
+
+#snslogo ul {
+    text-align: right;
+}
+
+#snslogo ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    display: inline;
+}
+
+#snslogo .firstsns::before {
+    content: "Share       ";
+    color: #999;
+    font-size: 10px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    vertical-align: inherit;
+}
+
+/*メインの文章部分*/
+
+
+.heading-typeA {
+    text-align: left;
+}
+
+#maincontent .mainarticle {
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+}
+
+#pagebodyMain #maincontent .mainarticle{
+    text-align: left;
+    padding-left: 150px;
+}
+
+#pagebodyMain .heading-typeA {
+    padding-left: 160px;
+}
+
+.mainpic {
+    text-align: center;
 }
 
 
@@ -123,7 +217,17 @@ html {
     text-align: center;
 }
 
-.btn:before{
+.sub-content {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download {
+    text-align: center;
+}
+
+.btn::before{
     content: '>';
 }
 
@@ -180,6 +284,17 @@ html {
     color: #0c419a;
     text-decoration: none
 }
+
+/*表の『NRI強み』*/
+.totalgraph .nripower {
+    font-weight: bold;
+}
+
+/*SNSアイコン右寄せ*/
+.bigfollow {
+    text-align: center;
+}
+
 
 
 /*企業情報 見出し部分の装飾*/
@@ -256,6 +371,25 @@ h3 {
     color: #0c419a;
     text-decoration: none;
 }
+
+
+/*一番大きいSNSアイコン欄*/
+.snsfollow {
+    text-align: center;
+    border: solid;
+}
+
+.snsfollow ul {
+    display: flex;
+    margin: 20px;
+}
+
+.snsfollow ul li {
+    list-style: none;
+    margin: 20px;
+    
+}
+
 
 /*リスト最後*/
 
