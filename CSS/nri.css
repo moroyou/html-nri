@@ -259,7 +259,7 @@ div #sub-content p::after {
 }
 
 
-
+/* ダウンロードボタン*/
 
 .download {
     text-align: center;
@@ -267,6 +267,12 @@ div #sub-content p::after {
 
 .btn::before{
     content: '>';
+    white-space: nowrap;
+    display: block;
+    float: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    size: 10px;
 }
 
 .sub-content2{
