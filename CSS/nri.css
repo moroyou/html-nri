@@ -148,7 +148,7 @@ header {
     height: 250px;
     object-fit: none;
     margin-left: -50px;
-    position: ;
+    position: static;
 }
 
 /*写真カバーのところ*/
@@ -231,26 +231,25 @@ header {
     text-decoration: none;
 }
 
-div #sub-content {
+#sub-content .text-alignleft {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+#sub-content {
+    float: left;
     font-size: 15px;
     text-align: right;
     margin: 0px;
     padding: 0px;
 }
 
-div #sub-content p::after {
+div #sub-content .text-alignleft2::after {
     content: ">";
     color: #999;
     white-space: pre-wrap;
 }
-
-#sub-content .text-alignleft {
-    text-align:left;
-    float:left;　/* pタグを周り込ませるための指定。*/
-    margin: 20px;
-    padding: 10px;
-}
-
 
 #sub-content .text-alignleft::before {
     content: "<";
