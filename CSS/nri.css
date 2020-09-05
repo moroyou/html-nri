@@ -115,7 +115,7 @@ header {
 
 /* TOP画像ページの文字装飾のデザイン*/
 
-.mainvisualtext {
+.main-visual-text {
     width: 500px;
     height: 90px;
     position: absolute;
@@ -125,11 +125,11 @@ header {
     line-height: 20px;
 }
 
-.mainvistext1 {
+.main-vis-text1 {
     font-size: 18px;
 }
 
-.mainvistext2 {
+.main-vis-text2 {
     font-weight: bolder;
     font-size: 30px;
 }
@@ -148,7 +148,7 @@ header {
 }
 
 /*写真カバーのところ*/
-.mainvisualtext {
+.main-visual-text {
     color: ivory;
 }
 
