@@ -43,9 +43,9 @@ header {
     text-align: right;
 }
 
-#pagehead .globalNavi ul li {
-    float: left;
-}/*(元々紫で囲っていたところ)*/
+#pagehead .globalNavi ul {
+    display: flex;   
+}/*(元々紫で囲っていたところ)元々float:left*/
 
 #pagehead .globalNavi ul li a {
     text-decoration: none;
