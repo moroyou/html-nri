@@ -10,7 +10,7 @@ html {
 
   /*pagebodyMainの中央寄せと幅のサイズ*/
 #pagebodyMain {
-    max-width: 1100px;/*元々はmax-width:1100px display-inlin-block??*/
+    max-width: 1000px;/*元々はmax-width:1100px display-inlin-block??*/
     margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@ header {
 /* TOP画像ページの文字装飾のデザイン*/
 
 .main-visual-text {
-    width: 500px;
+    width: 590px;
     height: 90px;
     position: absolute;
     padding: 30px;
