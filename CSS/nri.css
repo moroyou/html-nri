@@ -235,6 +235,7 @@ header {
 #sub-content .text-alignleft {
     margin: 20px;
     padding: 40px;
+    margin-left: -40px;
 }
 
 
