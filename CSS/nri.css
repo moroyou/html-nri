@@ -201,6 +201,7 @@ header {
     display: inline-block;
     font-size: 19px;
     text-align: left;
+    margin-bottom: 25px;
 }
 
 
@@ -247,6 +248,7 @@ header {
     text-align: right;
     margin: 0px;
     padding: 0px;
+    margin-bottom: -40px;
 }
 
 #sub-content .text-alignleft2 p::after {
@@ -332,6 +334,7 @@ header {
 }
 .totalgraph p {
     font-size: large;
+    color: rgba(43, 41, 41, 0.925);
 }
 div #glaph {
     width: auto;
