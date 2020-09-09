@@ -291,6 +291,19 @@ header {
     size: 10px;
 }
 
+.btn::after {
+    content:"   ";
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: inherit;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 11px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url(../image/PDF_img.png)
+}
+
 .sub-content2{
     margin: right;
 }
@@ -327,7 +340,7 @@ div #glaph {
 #glaph {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 5px;
     padding-right: 0px;
 }
 
