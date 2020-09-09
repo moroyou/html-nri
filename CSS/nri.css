@@ -170,6 +170,7 @@ header {
 
 #snslogo ul {
     float: right;
+    margin-right: -15px;
 }
 
 #snslogo ul li {
@@ -388,6 +389,7 @@ div#cop-info {
     display:flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    padding-left: inherit;
 }
 #localNavi li::before {
     content: ">   ";
@@ -414,7 +416,7 @@ div#cop-info {
 }
 
 .lo-navcontent {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /*企業情報の装飾*/
