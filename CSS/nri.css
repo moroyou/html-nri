@@ -369,6 +369,13 @@ div #glaph {
 }
 
 
+/*企業情報 div追加と中央寄せと幅揃え*/
+
+div#cop-info {
+    width: 950px;
+    margin: auto;
+}
+
 /*企業情報 見出し部分の装飾*/
 
 .heading-typeB {
