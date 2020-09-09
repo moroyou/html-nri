@@ -155,8 +155,10 @@ header {
 }
 
 
-#main-cotent-box {
-    width: 900px;
+/*mainのコンテンツ幅の設定DIVのやつ*/
+#main-content-box {
+    width: 950px;
+    margin: 0 auto;
 }
 
 /* SNSロゴ　Share*/
@@ -196,17 +198,17 @@ header {
 
 #maincontent .mainarticle {
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
 }
 
 #pagebodyMain #maincontent .mainarticle{
     text-align: left;
-    padding-left: 130px;
+    padding-left: 100px;
 }
 
 #pagebodyMain .heading-typeA {
-    padding-left: 160px;
+    padding-left: 100px;
 }
 
 .mainpic {
