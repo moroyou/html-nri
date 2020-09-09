@@ -226,6 +226,7 @@ header {
     padding: 15px 20px;
     position: relative;
     text-align: center;
+    margin-left: 40px;
 }
 
 
@@ -233,7 +234,7 @@ header {
 
 #sub-content .text-alignleft {
     margin: 20px;
-    padding: 10px;
+    padding: 40px;
 }
 
 
@@ -248,21 +249,29 @@ header {
 }
 
 #sub-content .text-alignleft2 p::after {
-    content: ">";
+    content: " >";
     color: #999;
     white-space: pre-wrap;
     line-height: 3px;
 }
 
 #sub-content .text-alignleft p::before {
-    content: "<";
+    content: "< ";
     color: #999;
-    white-space: nowrap;
+    white-space: pre-wrap;
 }
 
 .text-alignleft2 {
-    margin-top: 35px;
+    margin-top: 60px;
 }
+
+#sub-content a {
+    text-decoration: none;
+    color: #0c419a;;
+    font-size: 18px;
+}
+
+
 
 
 /* ダウンロードボタン*/
@@ -287,34 +296,38 @@ header {
 
 .text-alignleft {
     text-align: left;
+    padding-left: 40px;
 }
 .text-alignright {
     text-align: right;
 }
+
+
+
+.totalgraph {
+    width: -webkit-fill-available;
+    height: auto;
+}
+
 /*表の装飾（追加版）*/
 .totalgraph {
     display: inline-block;
     background-color:#deecf8;
     box-sizing: border-box;
-    padding: 5px;
-    margin: 10px;
     margin-top: 10px;
-    margin-left: 80px;
-    width: 850px;
 }
 .totalgraph p {
     font-size: large;
 }
 div #glaph {
-    width: 750px;
+    width: auto;
 }
 
 #glaph {
     display: flex;
     flex-wrap: wrap;
-    width: 110%;
-    margin: 20px;
     padding: 30px;
+    padding-right: 0px;
 }
 
 .tablelist {
@@ -345,7 +358,7 @@ div #glaph {
 .totalgraph .nripower {
     font-weight: bold;
     padding-left: 30px;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 0px;
 }
 
