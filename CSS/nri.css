@@ -162,6 +162,36 @@ header {
 }
 
 /* SNSロゴ　Share*/
+
+#snslogo-first {
+    max-width: 1100px;
+    height: 74px;
+    margin-left: 120px;
+}
+
+#snslogo-first ul {
+    float: right;
+    margin-right: -15px;
+}
+
+#snslogo-first ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+}
+
+#snslogo-first .firstsns::before {
+    content: "Share     ";
+    color: rgb(107, 105, 105);
+    font-size: 12px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    display: block;
+    float: left;
+    padding-top: 10px;
+}
+
+
 #snslogo {
     max-width: 1100px;
     height: 74px;
