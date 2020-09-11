@@ -217,7 +217,7 @@ header {
 
 /* ダウンロードボタン*/
 .btn {
-    display: inline-block!important;
+    display: inline-block;
     color: #fff;
     background-color: #005bac;
     border: solid 1px #005bac;
@@ -304,9 +304,7 @@ header {
     background: url(../image/PDF_img.png)
 }
 
-.sub-content2{
-    margin: right;
-}
+
 
 .text-alignleft {
     text-align: left;
