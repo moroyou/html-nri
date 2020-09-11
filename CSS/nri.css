@@ -193,7 +193,7 @@ header {
 /*メインの文章部分*/
 
 
-.heading-typeA {
+.heading-type-main {
     text-align: left;
 }
 
@@ -209,8 +209,6 @@ header {
     text-align: left;   
 }
 
-#pagebodyMain .heading-typeA {
-}
 
 .mainpic {
     margin: auto;
