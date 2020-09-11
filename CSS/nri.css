@@ -74,6 +74,13 @@ header {
     margin-bottom: 20px;
 }
 
+#smallglobalNavi a {
+    text-decoration: none;
+    color: #999;
+}
+
+
+
 /* ハンバーガーメニュー*/
 
 #humberger {
@@ -110,7 +117,6 @@ header {
 #smallglobalNavi {
       color: #999;
       margin-top:70px;
-      margin-bottom: 60px;
       margin-left: 80px;
       font-size: 13px;
 }
@@ -122,7 +128,6 @@ header {
     height: 90px;
     position: absolute;
     padding: 30px;
-    margin-top: 40px;
     margin-left: 200px;
     line-height: 20px;
 }
