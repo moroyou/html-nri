@@ -249,7 +249,7 @@ header {
     margin-bottom: -40px;
 }
 
-#sub-content .text-alignleft2 p::after {
+#sub-content .text-alignright p::after {
     content: " >";
     color: #999;
     white-space: pre-wrap;
@@ -262,7 +262,7 @@ header {
     white-space: pre-wrap;
 }
 
-.text-alignleft2 {
+.text-alignright {
     margin-top: 60px;
 }
 
