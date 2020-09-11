@@ -334,15 +334,13 @@ header {
     font-size: large;
     color: rgba(43, 41, 41, 0.925);
 }
-div #glaph {
-    width: auto;
-}
 
 #glaph {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     padding-right: 0px;
+    width: auto;
 }
 
 .tablelist {
