@@ -393,7 +393,7 @@ div#cop-info {
 
 /*企業情報 見出し部分の装飾*/
 
-.heading-typeB {
+.heading-type-sub {
     font-size: 20px;
     color:rgba(48, 46, 46, 0.904)
 }
@@ -434,7 +434,7 @@ div#cop-info {
 }
 
 /*企業情報の装飾*/
-.heading-typeB {
+.heading-type-sub {
     border-top: solid 2px;
     border-top-color: #000;
     border-bottom: solid 1px;
