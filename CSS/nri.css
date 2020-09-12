@@ -43,7 +43,7 @@ header {
 
 #pagehead .globalNavi ul li a {
     text-decoration: none;
-    color: black;
+    color: #000;
     font-weight: bold;
     font-size: 15px;
 }
@@ -150,7 +150,7 @@ header {
 
 /*写真カバーのところ*/
 .main-visual-text {
-    color: ivory;
+    color: #fff;
 }
 
 
@@ -181,7 +181,7 @@ header {
 
 #snslogo-first .firstsns::before {
     content: "Share     ";
-    color: rgb(107, 105, 105);
+    color: #999;
     font-size: 12px;
     font-weight: bold;
     white-space: pre-wrap;
@@ -210,7 +210,7 @@ header {
 
 #snslogo .firstsns::before {
     content: "Share     ";
-    color: rgb(107, 105, 105);
+    color:#444;
     font-size: 12px;
     font-weight: bold;
     white-space: pre-wrap;
@@ -357,7 +357,7 @@ header {
 }
 .totalgraph p {
     font-size: large;
-    color: rgba(43, 41, 41, 0.925);
+    color: #444;
 }
 
 #glaph {
@@ -372,7 +372,7 @@ header {
     width: 29%; /*元々23％*/
     border: solid 1px;
     border-color: #cccccc;
-    background-color: white;
+    background-color: #fff;
     text-align: center;
     margin: 10px;
     padding: 5px; 
@@ -418,7 +418,7 @@ div#cop-info {
 
 .heading-type-sub {
     font-size: 20px;
-    color:rgba(48, 46, 46, 0.904)
+    color: #444;
 }
 
 /*経営方針*/
@@ -468,7 +468,7 @@ div#cop-info {
 h3 {
     font-size: 16px;
     margin: 35px 0;
-    color: rgba(48, 46, 46, 0.904);
+    color: #444;
 }
 
 
@@ -517,7 +517,7 @@ h3 {
     white-space: nowrap;
     font-size: 19px;
     font-weight: bold;
-    color: rgba(46, 45, 45, 0.938);
+    color: #444;
     padding-right: 40px;
     padding-bottom: 20px;
     display: block;
@@ -572,7 +572,7 @@ h3.subinfo-title {
 }
 
 .subinfo-list ul li a:first-child {
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
@@ -630,5 +630,5 @@ h3.subinfo-title {
 
 #copyright p {
     font-size: 12px;
-    color: rgba(0, 0, 0, 0.733);
+    color: #000;
 }
