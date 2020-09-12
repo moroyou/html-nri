@@ -21,7 +21,7 @@ header {
 
 /*グローバルナビ*/
 #pagehead .globalNavi {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     background-color: #fff;
 }/*(元々青色で囲っていたところ)*/
