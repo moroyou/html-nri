@@ -143,7 +143,6 @@ header {
 #page .topimg {
     width: 100vw;;
     height: 250px;
-    object-fit: none;
     margin-left: -50px;
     position: static;
 }
