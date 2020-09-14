@@ -511,17 +511,26 @@ h3 {
     display: flex;
 }
 
-.snsfollow .first-followus::before {
-    content: "Follow US";
-    white-space: nowrap;
-    font-size: 19px;
-    font-weight: bold;
-    color: #444;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    display: block;
+.snsfollow {
+    margin: 0 auto;
 }
    
+.big-followus {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.snsfollow p {
+    margin: auto;
+    color: #444;
+}
+.snsfollow ul {
+    margin: auto;
+    display: inline-flex;
+    width: 100px;
+    margin-top: 10px;
+}
 
 
 /*リスト最後*/
