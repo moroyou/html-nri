@@ -73,7 +73,15 @@ header {
     color: #999;
 }
 
+#smallglobalNavi a::before {
+    content: ">";
+    color: #231815;
+    margin: 0 7px;
+}
 
+#smallglobalNavi a:first-child::before {
+    content: none;
+}
 
 /* ハンバーガーメニュー*/
 
