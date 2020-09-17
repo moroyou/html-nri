@@ -66,7 +66,7 @@ header {
 #smallglobalNavi ul li {
     list-style: none;
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #smallglobalNavi ul li a {
@@ -133,6 +133,7 @@ header {
     padding: 30px;
     margin-left: 200px;
     line-height: 20px;
+    margin-top: 30px;
 }
 
 .main-vis-text-power {
