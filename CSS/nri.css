@@ -63,23 +63,24 @@ header {
     padding-right: 18px;
 }
 
-#smallglobalNavi .toicpatch {
+#smallglobalNavi ul li {
+    list-style: none;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-#smallglobalNavi a {
+#smallglobalNavi ul li a {
     text-decoration: none;
     color: #999;
 }
 
-#smallglobalNavi a::before {
+#smallglobalNavi ul li::before {
     content: ">";
     color: #231815;
     margin: 0 7px;
 }
 
-#smallglobalNavi a:first-child::before {
+#smallglobalNavi li:first-child::before {
     content: none;
 }
 
