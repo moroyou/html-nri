@@ -379,9 +379,9 @@ header {
 }
 
 .tablelist p::before {
-    content: ">  ";
+    content: ">";
     color: #999;
-    white-space: pre-wrap;
+    margin-right: 15px;
 }
 
 .tablelist p {
