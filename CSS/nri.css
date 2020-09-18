@@ -446,9 +446,7 @@ div#cop-info {
 
 
 .localnavi-list {
-    border-bottom: solid 1px;
-    border-bottom-style: dotted;
-    border-bottom-color: #999;
+    border-bottom: 1px dotted #999;
 }
 
 .lo-navcontent {
