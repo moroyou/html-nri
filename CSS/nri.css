@@ -172,7 +172,18 @@ header {
 
 /* SNSロゴ　Share*/
 
+.share-mark {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: -25px;
+    color: #444;
+}
+
 #snslogo-first {
+    display: inline-flex;
+    float: right;
     max-width: 1100px;
     height: 74px;
     margin-left: 120px;
@@ -188,18 +199,6 @@ header {
     float: left;
     padding: 15px;
 }
-
-#snslogo-first .firstsns::before {
-    content: "Share     ";
-    color: #999;
-    font-size: 12px;
-    font-weight: bold;
-    white-space: pre-wrap;
-    display: block;
-    float: left;
-    padding-top: 10px;
-}
-
 
 #snslogo {
     max-width: 1100px;
@@ -234,6 +233,7 @@ header {
 
 .heading-type-main {
     text-align: left;
+    margin-top: 100px;
 }
 
 #maincontent .mainarticle {
