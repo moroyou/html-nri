@@ -392,7 +392,7 @@ header {
 }
 
 /*表の『NRI強み』の太文字*/
-.totaltable .nripower {
+.nripower {
     font-weight: bold;
     padding-left: 30px;
     padding-top: 10px;
