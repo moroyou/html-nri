@@ -335,9 +335,6 @@ header {
     margin: 5px 0px 10px 20px;
 }
 
-    
-
-
 
 .text-biz-model {
     text-align: left;
@@ -351,14 +348,14 @@ header {
 
 
 /*表の装飾（追加版）*/
-.totalgraph {
+.totaltable {
     height: auto;
     display: inline-block;
     background-color:#deecf8;
     box-sizing: border-box;
     margin-top: 10px;
 }
-.totalgraph p {
+.totaltable p {
     font-size: large;
     color: #444;
 }
@@ -396,7 +393,7 @@ header {
 }
 
 /*表の『NRI強み』の太文字*/
-.totalgraph .nripower {
+.totaltable .nripower {
     font-weight: bold;
     padding-left: 30px;
     padding-top: 10px;
