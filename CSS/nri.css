@@ -301,9 +301,6 @@ header {
     font-size: 18px;
 }
 
-
-
-
 /* ダウンロードボタン*/
 
 .download {
@@ -314,7 +311,6 @@ header {
     display: inline-block;
     color: #fff;
     background-color: #005bac;
-    border: solid 1px #005bac;
     margin: 20px 0px;
     padding: 10px 40px;
     position: relative;
