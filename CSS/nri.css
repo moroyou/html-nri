@@ -382,6 +382,10 @@ header {
     text-decoration: none
 }
 
+.tablelist:hover {
+    background-color:#EEEEEE;
+}
+
 /*表の『NRI強み』の太文字*/
 .nripower {
     font-weight: bold;
