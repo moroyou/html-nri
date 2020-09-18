@@ -255,17 +255,7 @@ header {
 
 
 /* ダウンロードボタン*/
-.btn {
-    display: inline-block;
-    color: #fff;
-    background-color: #005bac;
-    border: solid 1px #005bac;
-    margin: 20px 0px;
-    padding: 10px 40px;
-    position: relative;
-    text-align: center;
-    margin-left: 40px;
-}
+
 
 
 /*両端揃えのところ　<ビジネスモデルの特徴 人が支える未来>*/
@@ -318,6 +308,18 @@ header {
 
 .download {
     text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #005bac;
+    border: solid 1px #005bac;
+    margin: 20px 0px;
+    padding: 10px 40px;
+    position: relative;
+    text-align: center;
+    margin-left: 40px;
 }
 
 .btn::before{
