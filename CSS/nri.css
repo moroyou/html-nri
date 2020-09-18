@@ -323,22 +323,19 @@ header {
     white-space: nowrap;
     display: block;
     float: left;
-    padding-top: 15px;
+    padding-top: 22px;
     padding-right: 10px;
     size: 10px;
+    margin-left: -25px;
 }
 
 .btn::after {
-    content:"\00a0";
-    white-space: nowrap;
+    content:url("../image/pdf-icon.svg");
     display: inline-block;
-    vertical-align: inherit;
-    width: 20px;
-    height: 20px;
-    margin: 5px 15px 10px 11px;
-    background: url("../image/pdf-icon.svg");
-    background-repeat: no-repeat;
+    margin: 5px 0px 10px 20px;
 }
+
+    
 
 
 
