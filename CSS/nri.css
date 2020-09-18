@@ -349,12 +349,10 @@ header {
 
 
 
-.totalgraph {
-    height: auto;
-}
 
 /*表の装飾（追加版）*/
 .totalgraph {
+    height: auto;
     display: inline-block;
     background-color:#deecf8;
     box-sizing: border-box;
