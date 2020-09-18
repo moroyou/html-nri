@@ -260,7 +260,7 @@ header {
 
 /*両端揃えのところ　<ビジネスモデルの特徴 人が支える未来>*/
 
-#sub-content .text-alignleft {
+#sub-content .text-biz-model {
     margin: 20px;
     padding: 40px;
     margin-left: -40px;
@@ -278,20 +278,20 @@ header {
     margin-bottom: -40px;
 }
 
-#sub-content .text-alignright p::after {
+#sub-content .text-hm-future p::after {
     content: " >";
     color: #999;
     white-space: pre-wrap;
     line-height: 3px;
 }
 
-#sub-content .text-alignleft p::before {
+#sub-content .text-biz-model p::before {
     content: "< ";
     color: #999;
     white-space: pre-wrap;
 }
 
-.text-alignright {
+.text-hm-future {
     margin-top: 60px;
 }
 
@@ -339,11 +339,11 @@ header {
 
 
 
-.text-alignleft {
+.text-biz-model {
     text-align: left;
     padding-left: 40px;
 }
-.text-alignright {
+.text-hm-future {
     text-align: right;
 }
 
