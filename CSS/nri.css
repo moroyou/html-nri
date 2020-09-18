@@ -203,7 +203,8 @@ header {
 #snslogo {
     max-width: 1100px;
     height: 74px;
-    margin-left: 120px;
+    display: block;
+    float: right;
 }
 
 #snslogo ul {
@@ -217,16 +218,6 @@ header {
     padding: 15px;
 }
 
-#snslogo .firstsns::before {
-    content: "Share     ";
-    color:#444;
-    font-size: 12px;
-    font-weight: bold;
-    white-space: pre-wrap;
-    display: block;
-    float: left;
-    padding-top: 10px;
-}
 
 /*メインの文章部分*/
 
@@ -418,6 +409,7 @@ div#cop-info {
 .heading-type-sub {
     font-size: 20px;
     color: #444;
+    margin-top: 175px;
 }
 
 /*経営方針*/
