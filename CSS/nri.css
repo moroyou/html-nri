@@ -362,7 +362,7 @@ header {
 #table-block {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 25px;
     padding-right: 0px;
     width: auto;
 }
