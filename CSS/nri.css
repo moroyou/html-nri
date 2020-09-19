@@ -151,7 +151,7 @@ header {
     position: relative;
 }
 
-#page .topimg {
+.topimg {
     width: 100vw;;
     height: 250px;
     margin-left: -50px;
