@@ -532,6 +532,9 @@ div#cop-info {
     flex-wrap: wrap;
     box-sizing: border-box;
     border-bottom: solid 1px #999;
+    justify-content: right;
+    margin-left: 70px;
+    margin-top: 40px;
 }
 
 .subinfo-list-ul a::before {
@@ -545,9 +548,8 @@ div#cop-info {
 }
 
 .subinfo-list {
-    max-width: 100%;
+    width: 355px;
     flex-wrap: wrap;
-    padding: 60px;
 }
 
 .subinfo-list-ul-detail {
@@ -560,6 +562,10 @@ div#cop-info {
     margin-right: 5px;
 }
 
+.subinfo-list-ul {
+    margin-bottom: 60px;
+}
+
 .subinfo-list ul li {
     list-style: none;
     padding-top: 5%;
@@ -570,11 +576,6 @@ div#cop-info {
 .subinfo-list ul li a {
     margin-left: 0%;
     text-decoration: none;
-}
-
-.subinfo-list ul li:first-child {
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 .subinfo-list-ul-first-title a {
