@@ -40,6 +40,8 @@ header {
 
 #pagehead .globalNavi ul {
     display: flex;   
+    padding: 0px 3px;
+    padding-left: 15px;
 }/*(元々紫で囲っていたところ)元々float:left*/
 
 #pagehead .globalNavi ul li a {
@@ -51,17 +53,18 @@ header {
 
 .globalNavi li {
     display: block;
-    padding: 0 8px;
+    padding: 0 3px;
     margin-left: 10px;
 }
 
 .mainglonavi {
-    margin-left: 200px;
+    margin-left: 350px;
+    margin-top: 20px;
 }/*元々赤色だったところ*/
 
 #pagehead .globalNavi .subglnavi li {
-    margin: 0 10px;
-    padding-right: 18px;
+    margin: 0 19px;
+    padding-right: 0px;
 }
 
 #smallglobalNavi ul li {
