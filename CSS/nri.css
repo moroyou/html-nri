@@ -486,6 +486,11 @@ div#cop-info {
 
 
 /*一番大きいSNSアイコン欄*/
+#subinfo {
+    max-width: 1500px; 
+    margin: auto;
+}
+
 .snsfollow {
     height: 100px;
     text-align: center;
