@@ -487,12 +487,6 @@ div#cop-info {
 
 
 /*一番大きいSNSアイコン欄*/
-#subinfo {
-    max-width: 1500px; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .snsfollow {
     height: 100px;
     text-align: center;
@@ -539,13 +533,14 @@ div#cop-info {
 /*リスト最後*/
 
 #subinfo {
+    max-width: 1500px; 
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     border-bottom: solid 1px #999;
     justify-content: right;
-    margin-left: 70px;
-    margin-top: 40px;
+    margin-left: auto;
+    margin-top: auto;
 }
 
 .subinfo-list-ul a::before {
