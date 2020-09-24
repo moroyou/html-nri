@@ -577,13 +577,10 @@ div#cop-info {
     font-size: 16px;
 }
 
-.subinfo-list ul li a {
-    margin-left: 0%;
-    text-decoration: none;
-}
-
 .subinfo-list-ul-first-title a {
-    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+
 }
 
 
