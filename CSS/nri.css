@@ -25,6 +25,7 @@ header {
     width: 100%;
     display: flex;
     background-color: #fff;
+    justify-content: space-between;
 }/*(元々青色で囲っていたところ)*/
 
 .globalNavi .logo img {
@@ -488,7 +489,8 @@ div#cop-info {
 /*一番大きいSNSアイコン欄*/
 #subinfo {
     max-width: 1500px; 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .snsfollow {
