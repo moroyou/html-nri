@@ -563,10 +563,14 @@ div#cop-info {
     margin-right: 10px;   
 }
 
-
-.subinfo-list li:first-child::before {
-    content: none;
+.subinfo-list-ul-h4 li a::before{
+    content:url(../image/icon-＞マーク.svg);
+    display: inline-block; 
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;   
 }
+
 
 .subinfo-list {
     width: 355px;
