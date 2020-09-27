@@ -533,15 +533,15 @@ div#cop-info {
 /*リスト最後*/
 
 #subinfo {
-    max-width: 1500px; 
+    width: 100%; 
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     border-bottom: solid 1px #999;
-    justify-content: right;
-    margin-left: auto;
-    margin-top: auto;
+    justify-content: center;
+    margin: auto;
 }
+
 
 .subinfo-list-ul a::before {
     content: ">";
