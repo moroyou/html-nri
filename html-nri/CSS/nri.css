@@ -547,11 +547,22 @@ div#cop-info {
 }
 
 
-.subinfo-list-ul a::before {
-    content: ">";
-    color: #999;
-    margin-right: 5px;
+.subinfo-list-ul-detail li ::before {
+    content:url(../image/icon-＞マーク.svg);
+    display: inline-block; 
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;
 }
+
+.subinfo-list-ul-first-title ::before {
+    content:url(../image/icon-＞マーク.svg);
+    display: inline-block; 
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;   
+}
+
 
 .subinfo-list li:first-child::before {
     content: none;
@@ -566,11 +577,6 @@ div#cop-info {
     padding-left: 0px;
 }
 
-.subinfo-list-ul-detail a::before {
-    content: ">";
-    color: #999;
-    margin-right: 5px;
-}
 
 .subinfo-list-ul {
     margin-bottom: 60px;
