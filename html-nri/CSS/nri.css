@@ -497,6 +497,8 @@ div#cop-info {
     border-top: solid 2px;
     border-bottom: solid 2px;
     border-color: #999;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .snsfollow ul {
@@ -512,9 +514,6 @@ div#cop-info {
     display: flex;
 }
 
-.snsfollow {
-    margin: 0 auto;
-}
    
 .big-followus {
     display: inline-block;
