@@ -606,6 +606,15 @@ div#cop-info {
 }
 
 
+.subinfo-list-ul-h4 {
+    margin-top: -12px;
+}
+
+.subinfo-list-ul-h4 li {
+    padding-top: 5px;
+    margin-bottom: -30px;
+}
+
 /* footerリンク　*/
 #mainfooter {
     margin-top: 50px;
