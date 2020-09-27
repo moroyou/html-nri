@@ -172,7 +172,7 @@ header {
 
 /*mainのコンテンツ幅の設定DIVのやつ*/
 #main-content-box {
-    width: 750px;
+    width: 790px;
     margin: 0 auto;
 }
 
@@ -342,7 +342,6 @@ header {
 
 
 
-
 /*表の装飾（追加版）*/
 .totaltable {
     height: auto;
@@ -360,7 +359,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     padding: 25px;
-    padding-right: 0px;
+    padding-right: 25px;
     width: auto;
 }
 
