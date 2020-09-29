@@ -33,6 +33,7 @@ header {
     height: auto;
     padding-top: 10px;
     margin-left: 30px;
+    margin-right: 15px;
 }
 
 #pagehead .globalNavi ul {
@@ -42,7 +43,7 @@ header {
 #pagehead .globalNavi ul {
     display: flex;   
     padding: 0px 3px;
-    padding-left: 15px;
+    padding-left: 10px;
 }/*(元々紫で囲っていたところ)元々float:left*/
 
 #pagehead .globalNavi ul li a {
