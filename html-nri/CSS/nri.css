@@ -537,7 +537,8 @@ div#cop-info {
 /*リスト最後*/
 
 #subinfo {
-    width: 95%; 
+    width: 100%; 
+    max-width: 1300px;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -625,8 +626,10 @@ div#cop-info {
 }
 
 #mainfooter ul {
-    width: 80%;
+    width: 100%;
     display: inline-block;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 #mainfooter ul li{
