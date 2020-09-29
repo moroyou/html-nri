@@ -564,6 +564,10 @@ div#cop-info {
     margin-right: 10px;   
 }
 
+.subinfo-list-ul-first-title {
+    font-size: 15px;
+}
+
 .subinfo-list-ul-h4 li a::before{
     content:url(../image/icon-＞マーク.svg);
     display: inline-block; 
