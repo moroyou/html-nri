@@ -568,7 +568,7 @@ div#cop-info {
     font-size: 15px;
 }
 
-.subinfo-list-ul-h4 li a::before{
+.subinfo-list-ul-h2 li a::before{
     content:url(../image/icon-＞マーク.svg);
     display: inline-block; 
     width: 3px;
@@ -611,11 +611,11 @@ div#cop-info {
 }
 
 
-.subinfo-list-ul-h4 {
+.subinfo-list-ul-h2 {
     margin-top: -12px;
 }
 
-.subinfo-list-ul-h4 li {
+.subinfo-list-ul-h2 li {
     padding-top: 5px;
     margin-bottom: -30px;
 }
