@@ -583,7 +583,7 @@ div#cop-info {
 .subinfo-list {
     width: 355px;
     flex-basis: 25%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .subinfo-list-ul-detail {
@@ -599,7 +599,7 @@ div#cop-info {
     list-style: none;
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .subinfo-list-ul-first-title a {
