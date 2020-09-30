@@ -577,6 +577,11 @@ div#cop-info {
 }
 
 
+.subinfo-list-ul-h2 li a {
+    font-size: 16px;
+    color: #444;
+}
+
 .subinfo-list {
     width: 355px;
     flex-basis: 25%;
