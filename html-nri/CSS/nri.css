@@ -499,7 +499,6 @@ div#cop-info {
     border-bottom: solid 2px;
     border-color: #999;
     margin: 0 auto;
-    margin-bottom: 70px;
 }
 
 .snsfollow ul {
@@ -542,7 +541,6 @@ div#cop-info {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border-bottom: solid 1px #999;
     justify-content: center;
     margin: auto;
 }
@@ -585,6 +583,7 @@ div#cop-info {
 .subinfo-list {
     width: 355px;
     flex-basis: 25%;
+    margin-top: 50px;
 }
 
 .subinfo-list-ul-detail {
@@ -626,6 +625,13 @@ div#cop-info {
 }
 
 /* footerリンク　*/
+
+footer {
+    border-top: solid 1px #999;
+    margin-top: 15px;
+}
+
+
 #mainfooter {
     margin-top: 50px;
     margin-left: 200px;
