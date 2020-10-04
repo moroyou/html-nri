@@ -642,6 +642,7 @@ footer {
 
 #mainfooter ul {
     width: 100%;
+    box-sizing:border-box;
     display: inline-block;
     margin: auto;
     margin-bottom: 10px;
