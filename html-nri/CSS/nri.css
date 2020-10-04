@@ -71,8 +71,7 @@ header {
 
 #smallglobalNavi ul li {
     list-style: none;
-    float: left;
-    margin-bottom: 30px;
+    display: inline-block;
 }
 
 #smallglobalNavi ul li a {
