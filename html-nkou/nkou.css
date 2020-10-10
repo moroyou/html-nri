@@ -1,0 +1,44 @@
+
+header {
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+#globalnavi {
+    margin: 0 auto;
+    background-color: #777777;
+}
+
+#globalnavi ul li {
+    list-style: none;
+    float: right;
+    display: flex;   
+}
+
+#header-logo-block {
+    display: inline-block;
+}
+
+
+
+/*ここからはTOP画像部分のやつ*/
+
+#maincover p {
+    text-align: center;
+}
+
+.about-nkou-font {
+    font-size: 40px;
+}
+
+#top-img {
+    object-fit: cover;
+    width: 100vw;
+    text-align: center;
+}
+
